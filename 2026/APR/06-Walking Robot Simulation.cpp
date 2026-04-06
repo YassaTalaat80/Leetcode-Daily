@@ -13,7 +13,7 @@ public:
         int x = 0, y = 0;
         int dir = 0; 
         int maxDist = 0;
-
+ 
         for (int cmd : commands) {
             if (cmd == -1) {
                 dir = (dir + 1) % 4;
